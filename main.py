@@ -22,8 +22,8 @@ def overtime():
     bas_month = worked_hours * hourly_pay
     noWorkPay = basic_salary - bas_month
     print("You miss {}hrs of work".format(noWorkHours), 
-          "\n So your pay for the month is ${}".format(bas_month),
-          "\n And you Hours of no payment is {}hrs".format(noWorkHours),
-          "\n Which results to ${} deduction from your salary".format(noWorkPay))
+          "\nSo your pay for the week is ${}".format(bas_month),
+          "\nAnd you Hours of no payment is {}hrs".format(noWorkHours),
+          "\nWhich results to ${} deduction from your salary".format(noWorkPay))
 #calling the function
 overtime()
